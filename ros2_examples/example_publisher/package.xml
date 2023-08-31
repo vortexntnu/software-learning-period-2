@@ -12,7 +12,8 @@
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
   <depend>example_msgs</depend>
-
+  
+  <exec_depend>ros2launch</exec_depend>
 
   <!-- gtest stuff -->
   <test_depend>ament_lint_auto</test_depend>

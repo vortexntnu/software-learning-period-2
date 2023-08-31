@@ -1,5 +1,5 @@
-devel/
-logs/
+install/
+log/
 build/
 bin/
 lib/
@@ -51,5 +51,5 @@ qtcreator-*
 CATKIN_IGNORE
 
 # vscode
-.vscode
+.vscode/
 

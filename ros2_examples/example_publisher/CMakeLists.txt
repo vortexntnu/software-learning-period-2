@@ -20,10 +20,10 @@ find_package(example_msgs REQUIRED)
 include_directories(include)
 
 # add publisher executable
-add_executable(${PROJECT_NAME}_publisher 
-  src/test_publisher.cpp
+add_executable(${PROJECT_NAME}_node 
+  src/example_publisher.cpp
 )
-ament_target_dependencies(${PROJECT_NAME}_publisher 
+ament_target_dependencies(${PROJECT_NAME}_node 
   rclcpp 
   std_msgs
   example_msgs
@@ -34,9 +34,13 @@ install(
   DIRECTORY include/
   DESTINATION include
 )
+INSTALL(
+  DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
+)
 
 install(TARGETS
-  ${PROJECT_NAME}_publisher
+  ${PROJECT_NAME}_node
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

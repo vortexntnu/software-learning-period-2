@@ -1,4 +1,0 @@
-launch:
-  - node:
-      pkg: "example_publisher"
-      exec: 

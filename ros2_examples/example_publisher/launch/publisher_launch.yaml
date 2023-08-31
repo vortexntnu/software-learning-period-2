@@ -1,0 +1,6 @@
+launch:
+  - node:
+      pkg: "example_publisher"
+      exec: "example_publisher_node"
+      name: "example_publisher"
+      namespace: "example_publisher"
