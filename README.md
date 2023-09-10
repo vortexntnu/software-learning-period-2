@@ -15,7 +15,7 @@ A repository dedicated to the Vortex NTNU software members to mess around with G
 Commands needed for the tutorial can be found at the bottom of the document. 
 ### Installing ROS, catkin and vscode
 Follow the steps in the ROS-wiki, and install the "Desktop version":
-http://wiki.ros.org/noetic/Installation/Ubuntu
+[https://docs.ros.org/en/humble/]
 
 To install visual studio code on you linux computer:
 https://code.visualstudio.com/download
@@ -46,7 +46,7 @@ You are now inside of the docker container - this enables you to use all of the 
 
 ROS is short for Robot operating system. This is the middleware we use on our drones to communicate between all our systems. ROS allows for programs to communicate over a defined API with ROS messages and services. It enables programs to run on multiple computers and communicates over the network. ROS modules can also run on different laguages such as C++ and Python.
 
-**Catkin** is the build system for ROS. The tutorial will not go in depth on exactly how catkin works, but for those interested you can read up on catkin here: https://nu-msr.github.io/me495_site/lecture02_catkin.html
+**Colcon** is the build system for ROS. The tutorial will not go in depth on exactly how colcon works, but for those interested you can read up on colcon here: [https://colcon.readthedocs.io/en/released/]
 
 This tutorial will mainly focus on nodes. A node is a single purpose executable program organized in packages. Nodes communicate over topics, which again is a name for a stream of messages. 
 
